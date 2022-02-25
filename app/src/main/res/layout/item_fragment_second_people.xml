@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_height="match_parent"
+            android:id="@+id/profile3"
+            android:src="@drawable/arab2"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:scaleType="centerCrop"
+            android:id="@+id/iv_profile4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/arab2"
+            android:padding="5dp"
+            app:strokeWidth="4dp"/>
+    <TextView
+        android:id="@+id/tv_fullname4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#5C373636"
+        android:gravity="bottom"
+        android:padding="20dp"
+        android:text="Add to Story"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="normal"/>
+
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="13dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#FA595656"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+</FrameLayout>
